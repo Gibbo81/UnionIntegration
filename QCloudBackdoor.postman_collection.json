@@ -1,0 +1,1063 @@
+{
+	"info": {
+		"_postman_id": "fa2c078c-05ed-448f-8a7a-ba3ef0da53cd",
+		"name": "QCloudBackdoor",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Center database test Staging",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"type": "text",
+						"value": "BMS8zK5ZwK89g3Jdczc4M2T2vAdAKRRcu"
+					}
+				],
+				"url": {
+					"raw": "https://qcloud-staging.qubicaamf.com:44301/Backdoor/QCloudApp/AdminSvc/centers-database/2960/test",
+					"protocol": "https",
+					"host": [
+						"qcloud-staging",
+						"qubicaamf",
+						"com"
+					],
+					"port": "44301",
+					"path": [
+						"Backdoor",
+						"QCloudApp",
+						"AdminSvc",
+						"centers-database",
+						"2960",
+						"test"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CompanyUsers Production",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"type": "text",
+						"value": "BMS8zK5ZwK89g3Jdczc4M2T2vAdAKRRcu"
+					}
+				],
+				"url": {
+					"raw": "https://qcloud.qubicaamf.com:44301/Backdoor/QCloudApp/SecuritySvc/companies/277/users",
+					"protocol": "https",
+					"host": [
+						"qcloud",
+						"qubicaamf",
+						"com"
+					],
+					"port": "44301",
+					"path": [
+						"Backdoor",
+						"QCloudApp",
+						"SecuritySvc",
+						"companies",
+						"277",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CrmAccount Production",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"type": "text",
+						"value": "BMS8zK5ZwK89g3Jdczc4M2T2vAdAKRRcu"
+					}
+				],
+				"url": {
+					"raw": "https://qcloud.qubicaamf.com:44301/Backdoor/QCloudApp/AdminSvc/CrmAccounts/%7Bb09f6585-cce3-dc11-8676-001c23b99415%7D",
+					"protocol": "https",
+					"host": [
+						"qcloud",
+						"qubicaamf",
+						"com"
+					],
+					"port": "44301",
+					"path": [
+						"Backdoor",
+						"QCloudApp",
+						"AdminSvc",
+						"CrmAccounts",
+						"%7Bb09f6585-cce3-dc11-8676-001c23b99415%7D"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "QupeePost Production",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"type": "text",
+						"value": "BMS8zK5ZwK89g3Jdczc4M2T2vAdAKRRcu"
+					}
+				],
+				"url": {
+					"raw": "https://qcloud.qubicaamf.com/Backdoor/QCloudApp/AdminSvc/centers-database/3022/qupee",
+					"protocol": "https",
+					"host": [
+						"qcloud",
+						"qubicaamf",
+						"com"
+					],
+					"path": [
+						"Backdoor",
+						"QCloudApp",
+						"AdminSvc",
+						"centers-database",
+						"3022",
+						"qupee"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "QupeePost Development",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"type": "text",
+						"value": "BMS8zK5ZwK89g3Jdczc4M2T2vAdAKRRcu"
+					}
+				],
+				"url": {
+					"raw": "https://qcloud-develop.qubicaamf.com:44301/Backdoor/QCloudApp/AdminSvc/centers-database/2942/qupee",
+					"protocol": "https",
+					"host": [
+						"qcloud-develop",
+						"qubicaamf",
+						"com"
+					],
+					"port": "44301",
+					"path": [
+						"Backdoor",
+						"QCloudApp",
+						"AdminSvc",
+						"centers-database",
+						"2942",
+						"qupee"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "QupeePost StagingBeta",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"type": "text",
+						"value": "BMS8zK5ZwK89g3Jdczc4M2T2vAdAKRRcu"
+					}
+				],
+				"url": {
+					"raw": "https://qcloud-staging.qubicaamf.com:44301/Backdoor/QCloudApp/AdminSvc/centers-database/2927/qupee",
+					"protocol": "https",
+					"host": [
+						"qcloud-staging",
+						"qubicaamf",
+						"com"
+					],
+					"port": "44301",
+					"path": [
+						"Backdoor",
+						"QCloudApp",
+						"AdminSvc",
+						"centers-database",
+						"2927",
+						"qupee"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CenterConfig ProductionBeta",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"type": "text",
+						"value": "BMS8zK5ZwK89g3Jdczc4M2T2vAdAKRRcu"
+					}
+				],
+				"url": {
+					"raw": "https://qcloud.qubicaamf.com/Backdoor/QCloudApp/AdminSvc/centers-config/3022",
+					"protocol": "https",
+					"host": [
+						"qcloud",
+						"qubicaamf",
+						"com"
+					],
+					"path": [
+						"Backdoor",
+						"QCloudApp",
+						"AdminSvc",
+						"centers-config",
+						"3022"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CenterConfig DevelopBeta",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"type": "text",
+						"value": "BMS8zK5ZwK89g3Jdczc4M2T2vAdAKRRcu"
+					}
+				],
+				"url": {
+					"raw": "https://qcloud-develop.qubicaamf.com:44301/Backdoor/QCloudApp/AdminSvc/centers-config/2922",
+					"protocol": "https",
+					"host": [
+						"qcloud-develop",
+						"qubicaamf",
+						"com"
+					],
+					"port": "44301",
+					"path": [
+						"Backdoor",
+						"QCloudApp",
+						"AdminSvc",
+						"centers-config",
+						"2922"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CentersConfig DevelopBeta",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"type": "text",
+						"value": "BMS8zK5ZwK89g3Jdczc4M2T2vAdAKRRcu"
+					}
+				],
+				"url": {
+					"raw": "https://qcloud-develop.qubicaamf.com:44301/Backdoor/QCloudApp/AdminSvc/centers-config",
+					"protocol": "https",
+					"host": [
+						"qcloud-develop",
+						"qubicaamf",
+						"com"
+					],
+					"port": "44301",
+					"path": [
+						"Backdoor",
+						"QCloudApp",
+						"AdminSvc",
+						"centers-config"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CentersConfig DevelopBeta Copy",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"type": "text",
+						"value": "BMS8zK5ZwK89g3Jdczc4M2T2vAdAKRRcu"
+					}
+				],
+				"url": {
+					"raw": "https://qcloud-develop.qubicaamf.com:44301/Backdoor/QCloudApp/AdminSvc/centers-config",
+					"protocol": "https",
+					"host": [
+						"qcloud-develop",
+						"qubicaamf",
+						"com"
+					],
+					"port": "44301",
+					"path": [
+						"Backdoor",
+						"QCloudApp",
+						"AdminSvc",
+						"centers-config"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddCmpUpdate DevelopBeta",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"type": "text",
+						"value": "BMS8zK5ZwK89g3Jdczc4M2T2vAdAKRRcu"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"StartDate\": \"2022-12-31T00:00:00\",\r\n\t\"ExpireDate\": \"2023-03-31T00:00:00\",\r\n\t\"Username\": \"pbergamini\",\r\n\t\"Order\": \"\",\r\n\t\"Reason\": \"Togliamone un po'\",\r\n\t\"Manual\": false\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://qcloud-develop.qubicaamf.com:44301/Backdoor/QCloudApp/AdminSvc/centers-config/2922/cmp",
+					"protocol": "https",
+					"host": [
+						"qcloud-develop",
+						"qubicaamf",
+						"com"
+					],
+					"port": "44301",
+					"path": [
+						"Backdoor",
+						"QCloudApp",
+						"AdminSvc",
+						"centers-config",
+						"2922",
+						"cmp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Centers Local",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"type": "text",
+						"value": "BMS8zK5ZwK89g3Jdczc4M2T2vAdAKRRcu"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:19081/QCloudApp/AdminSvc/centers-config",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "19081",
+					"path": [
+						"QCloudApp",
+						"AdminSvc",
+						"centers-config"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dictionary local",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"type": "text",
+						"value": "BMS8zK5ZwK89g3Jdczc4M2T2vAdAKRRcu"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:19081/QCloudApp/AdminSvc/centers-config",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "19081",
+					"path": [
+						"QCloudApp",
+						"AdminSvc",
+						"centers-config"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Center finalize Staging",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"type": "text",
+						"value": "BMS8zK5ZwK89g3Jdczc4M2T2vAdAKRRcu"
+					}
+				],
+				"url": {
+					"raw": "https://qcloud-staging.qubicaamf.com:44301/Backdoor/QCloudApp/AdminSvc/centers-database/2960/finalize?context=Postman",
+					"protocol": "https",
+					"host": [
+						"qcloud-staging",
+						"qubicaamf",
+						"com"
+					],
+					"port": "44301",
+					"path": [
+						"Backdoor",
+						"QCloudApp",
+						"AdminSvc",
+						"centers-database",
+						"2960",
+						"finalize"
+					],
+					"query": [
+						{
+							"key": "context",
+							"value": "Postman"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Center backups",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"value": "BMS8zK5ZwK89g3Jdczc4M2T2vAdAKRRcu",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://qcloud-develop.qubicaamf.com:44301/Backdoor/QCloudApp/CenterBackupSvc/2945/archives/",
+					"protocol": "https",
+					"host": [
+						"qcloud-develop",
+						"qubicaamf",
+						"com"
+					],
+					"port": "44301",
+					"path": [
+						"Backdoor",
+						"QCloudApp",
+						"CenterBackupSvc",
+						"2945",
+						"archives",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Center backup details",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"type": "text",
+						"value": "BMS8zK5ZwK89g3Jdczc4M2T2vAdAKRRcu"
+					}
+				],
+				"url": {
+					"raw": "https://qcloud-develop.qubicaamf.com:44301/Backdoor/QCloudApp/CenterBackupSvc/2945/archives/Q20190205_1029/",
+					"protocol": "https",
+					"host": [
+						"qcloud-develop",
+						"qubicaamf",
+						"com"
+					],
+					"port": "44301",
+					"path": [
+						"Backdoor",
+						"QCloudApp",
+						"CenterBackupSvc",
+						"2945",
+						"archives",
+						"Q20190205_1029",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Knowledge picture local",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"type": "text",
+						"value": "5d60a282f9114b31bed6e496f0ac15d9"
+					}
+				],
+				"url": {
+					"raw": "https://localhost/Jarvis/docs/pictures/50BD7A43-7B27-4E89-91AD-41498910643B",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Jarvis",
+						"docs",
+						"pictures",
+						"50BD7A43-7B27-4E89-91AD-41498910643B"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FakeData Economical Local 10388",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-FakeData-AccessToken",
+						"type": "text",
+						"value": "9f617f193e024022bb42d69c9a1dc75e:9086"
+					},
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"type": "text",
+						"value": "BMS8zK5ZwK89g3Jdczc4M2T2vAdAKRRcu"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"Total\": 25,\n\t\"Gap\": \"Few\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:19081/QCloudApp/CenterEconomicalSvc/9086/fakeData?From=2019-02-25&To=2019-03-19",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "19081",
+					"path": [
+						"QCloudApp",
+						"CenterEconomicalSvc",
+						"9086",
+						"fakeData"
+					],
+					"query": [
+						{
+							"key": "From",
+							"value": "2019-02-25"
+						},
+						{
+							"key": "To",
+							"value": "2019-03-19"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "tmpFakeData Economical Local 10388",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-FakeData-AccessToken",
+						"type": "text",
+						"value": "9f617f193e024022bb42d69c9a1dc75e:9086"
+					},
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"type": "text",
+						"value": "BMS8zK5ZwK89g3Jdczc4M2T2vAdAKRRcu"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"From\": \"2019-02-25\",\n\t\"To\": \"2019-03-19\",\n\t\"Setup\": \"quindi?\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:19081/QCloudApp/CenterEconomicalSvc/9086/fakeData",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "19081",
+					"path": [
+						"QCloudApp",
+						"CenterEconomicalSvc",
+						"9086",
+						"fakeData"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UploadVideo - local",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"type": "text",
+						"value": "BMS8zK5ZwK89g3Jdczc4M2T2vAdAKRRcu"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "vid",
+							"type": "file",
+							"src": "/C:/Users/gmasi/Desktop/TestFiles_uploadVideo/Colossus.mp4",
+							"disabled": true
+						},
+						{
+							"key": "sub_IT",
+							"type": "file",
+							"src": "/C:/Users/gmasi/Desktop/TestFiles_uploadVideo/ITaGoOk.vtt",
+							"disabled": true
+						},
+						{
+							"key": "sub_EN",
+							"type": "file",
+							"src": "/C:/Users/gmasi/Desktop/TestFiles_uploadVideo/EnglishTea.vtt",
+							"disabled": true
+						},
+						{
+							"key": "Name",
+							"value": "cambiocinghia-25",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "Pinspotter",
+							"value": "TMS2",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost/Backdoor/QCloudApp/KnowledgeSvc/Videos",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Backdoor",
+						"QCloudApp",
+						"KnowledgeSvc",
+						"Videos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EncodeVideo - local",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"type": "text",
+						"value": "BMS8zK5ZwK89g3Jdczc4M2T2vAdAKRRcu"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"AssetId\": \"f13444dd-014f-40ed-bb59-c02b920dc095\",\r\n    \"Title\": \"TuttaLaRotella\",\r\n    \"Pinspotter\": \"TMS2\",\r\n    \"Subtitle\": [ \r\n        \"IT\",\r\n        \"ES\"\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost/Backdoor/QCloudApp/KnowledgeSvc/Videos/StartEncode",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Backdoor",
+						"QCloudApp",
+						"KnowledgeSvc",
+						"Videos",
+						"StartEncode"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UploadVideo - dev",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"type": "text",
+						"value": "BMS8zK5ZwK89g3Jdczc4M2T2vAdAKRRcu"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "vid",
+							"type": "file",
+							"src": "/C:/Users/gmasi/Desktop/TestFiles_uploadVideo/Big.mp4"
+						},
+						{
+							"key": "sub_IT",
+							"type": "file",
+							"src": "/C:/Users/gmasi/Desktop/TestFiles_uploadVideo/ITaGoOk.vtt"
+						},
+						{
+							"key": "sub_EN",
+							"type": "file",
+							"src": "/C:/Users/gmasi/Desktop/TestFiles_uploadVideo/EnglishTea.vtt"
+						},
+						{
+							"key": "Name",
+							"value": "cambiocinghia-24",
+							"type": "text"
+						},
+						{
+							"key": "Pinspotter",
+							"value": "TMS2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://qcloud-develop.qubicaamf.com:44301/Backdoor/QCloudApp/KnowledgeSvc/Videos",
+					"protocol": "https",
+					"host": [
+						"qcloud-develop",
+						"qubicaamf",
+						"com"
+					],
+					"port": "44301",
+					"path": [
+						"Backdoor",
+						"QCloudApp",
+						"KnowledgeSvc",
+						"Videos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetSingleVideoVideo",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"value": "BMS8zK5ZwK89g3Jdczc4M2T2vAdAKRRcu",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "https://localhost/Backdoor/QCloudApp/KnowledgeSvc/Videos/1060",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Backdoor",
+						"QCloudApp",
+						"KnowledgeSvc",
+						"Videos",
+						"1060"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteSingleVideoVideo",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"value": "BMS8zK5ZwK89g3Jdczc4M2T2vAdAKRRcu",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "https://localhost/Backdoor/QCloudApp/KnowledgeSvc/Videos/1061",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Backdoor",
+						"QCloudApp",
+						"KnowledgeSvc",
+						"Videos",
+						"1061"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateVideoFINAL",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"type": "text",
+						"value": "BMS8zK5ZwK89g3Jdczc4M2T2vAdAKRRcu"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"Title\": \"TraslaLaRotella\",\r\n\t\"Subtitle\": [\r\n\t\t\"IT2\",\r\n\t\t\"EN2\",\r\n\t\t\"ES2\"\r\n\t]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost/Backdoor/QCloudApp/KnowledgeSvc/Videos/3068",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Backdoor",
+						"QCloudApp",
+						"KnowledgeSvc",
+						"Videos",
+						"3068"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateVideonewSubtitle",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"type": "text",
+						"value": "BMS8zK5ZwK89g3Jdczc4M2T2vAdAKRRcu"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost/Backdoor/QCloudApp/KnowledgeSvc/Videos/3068/subtitle",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Backdoor",
+						"QCloudApp",
+						"KnowledgeSvc",
+						"Videos",
+						"3068",
+						"subtitle"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateVideonewVideo",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"type": "text",
+						"value": "BMS8zK5ZwK89g3Jdczc4M2T2vAdAKRRcu"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost/Backdoor/QCloudApp/KnowledgeSvc/Videos/3068/video",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Backdoor",
+						"QCloudApp",
+						"KnowledgeSvc",
+						"Videos",
+						"3068",
+						"video"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateVideoNoNewVideoFile",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"type": "text",
+						"value": "BMS8zK5ZwK89g3Jdczc4M2T2vAdAKRRcu"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "sub_OO",
+							"type": "file",
+							"src": "/C:/Users/gmasi/Desktop/TestFiles_uploadVideo/ITaGoOk.vtt"
+						},
+						{
+							"key": "Name",
+							"value": "PlutoUpdateVideo_6",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost/Backdoor/QCloudApp/KnowledgeSvc/Videos/1058",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Backdoor",
+						"QCloudApp",
+						"KnowledgeSvc",
+						"Videos",
+						"1058"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GatewayCall_NoBackdoor",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ilg1ZVhrNHh5b2pORnVtMWtsMll0djhkbE5QNC1jNTdkTzZRR1RWQndhTmsifQ.eyJpc3MiOiJodHRwczovL3FhbWZkZXZlbG9wLmIyY2xvZ2luLmNvbS9kZTgwNGE2ZS0yMjUwLTQxNDMtYjBjOC0xZDE3YzFmMGEwYjEvdjIuMC8iLCJleHAiOjE2MTEyMzMwMjUsIm5iZiI6MTYxMTIyOTQyNSwiYXVkIjoiY2Y0MTJhNzEtODE4OS00NzJjLWE0MTAtMGVlZTlkMjgwZWM2Iiwib2lkIjoiNjAzMmM0N2ItOTlmOC00ZWUzLThlYzctZjEzNzRjY2YzZGRlIiwic3ViIjoiNjAzMmM0N2ItOTlmOC00ZWUzLThlYzctZjEzNzRjY2YzZGRlIiwiZW1haWxzIjpbIkdNYXNpQHF1YmljYWFtZi5jb20iXSwibmV3VXNlciI6dHJ1ZSwiZ2l2ZW5fbmFtZSI6InBpcHBvIiwiZmFtaWx5X25hbWUiOiJwbHV0byIsImV4dGVuc2lvbl9QaG9uZSI6IjA1MTM1Njk4MjQ1NCIsInRmcCI6IkIyQ18xX3NpZ251cHNpZ25pbiIsIm5vbmNlIjoiMjJiOWRhOWQtYWRlMy00YTlhLThjZjItM2ZjZGQ3MzU3YWZhIiwic2NwIjoiVXNlci5Xcml0ZSBVc2VyLlJlYWQiLCJhenAiOiJjZjQxMmE3MS04MTg5LTQ3MmMtYTQxMC0wZWVlOWQyODBlYzYiLCJ2ZXIiOiIxLjAiLCJpYXQiOjE2MTEyMjk0MjV9.f45CsuesI1RLmqQH3h694ALx1z6mYjmEmyfal7qP9EO1LHmY0taopqLAqHbJePhUJ9SCRGCjlqjhkRXKiXd7BTpd8D6kC_Ntk6zyWvtDSvJIFSn_8piA1aGmmzaL_43Fgm11KzDGjGHX09yhRliRl3mcgl6lDS8RFaXMc05R1lOIbSurx3BKlrlLvSu_2MwbP8EME01yDAqlSXPG-Ny1ceSA2_w-18k8meGX0mpvP9qemOKZYd5Cc3u26wvGIvBGtlPZgz67EjdUYC81Q89usHuAGVsrVzfGHq52Vj2ERCaNn1cdbIrirDtlDcINtrshiX2mpPfZ5WCejp4_7_rSpw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"type": "text",
+						"value": "93108f56-0825-4030-b85f-bc6a69fa502c"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:443/Bowler/companies/157/customers/me",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "443",
+					"path": [
+						"Bowler",
+						"companies",
+						"157",
+						"customers",
+						"me"
+					]
+				},
+				"description": "k"
+			},
+			"response": []
+		}
+	]
+}

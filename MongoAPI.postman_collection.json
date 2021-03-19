@@ -1,0 +1,130 @@
+{
+	"info": {
+		"_postman_id": "54db108e-07bb-4f7a-babd-255d5e05a265",
+		"name": "MongoAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3001/users/Pippo",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"value": "BMS8zK5ZwK89g3Jdczc4M2T2vAdAKRRcu",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"addHobby\" :[\r\n        {\r\n            \"name\" : \"play card2\",\r\n            \"description\" : \"It's a beatuiful hobby play card\"\r\n        },\r\n        {\r\n            \"name\" : \"Monopoly2\",\r\n            \"description\" : \"a dice game\"\r\n        } ,\r\n        {\r\n            \"name\" : \"basket2\",\r\n            \"description\" : \"some sport\"\r\n        } ,\r\n        {\r\n            \"name\" : \"building2\",\r\n            \"description\" : \"with your hands\"\r\n        }\r\n    ],\r\n    \"removeHobby\" :[ {\"name\" : \"building\" } , {\"name\" : \"basket\" }  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/users/Pippo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"users",
+						"Pippo"
+					]
+				},
+				"description": "Patch command"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3001/users",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"value": "BMS8zK5ZwK89g3Jdczc4M2T2vAdAKRRcu",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"custom api user\",\r\n    \"age\" : 21,\r\n    \"color\": \"yellow\",\r\n    \"hobby\" :[\r\n        {\r\n            \"name\" : \"play card\",\r\n            \"description\" : \"It's a beatuiful hobby play card\"\r\n        },\r\n        {\r\n            \"name\" : \"Monopoly\",\r\n            \"description\" : \"a dice game\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"users"
+					]
+				},
+				"description": "Create neww user"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3001/users?color=red&minage=10",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"value": "BMS8zK5ZwK89g3Jdczc4M2T2vAdAKRRcu",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/users?color=red&minage=10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"users"
+					],
+					"query": [
+						{
+							"key": "color",
+							"value": "red"
+						},
+						{
+							"key": "minage",
+							"value": "10"
+						}
+					]
+				},
+				"description": "Read multiple Users with filters"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

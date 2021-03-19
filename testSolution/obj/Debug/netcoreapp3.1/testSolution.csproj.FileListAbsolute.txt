@@ -1,0 +1,13 @@
+C:\Users\gmasi\Desktop\Exercise\testSolution\bin\Debug\netcoreapp3.1\testSolution.exe
+C:\Users\gmasi\Desktop\Exercise\testSolution\bin\Debug\netcoreapp3.1\testSolution.deps.json
+C:\Users\gmasi\Desktop\Exercise\testSolution\bin\Debug\netcoreapp3.1\testSolution.runtimeconfig.json
+C:\Users\gmasi\Desktop\Exercise\testSolution\bin\Debug\netcoreapp3.1\testSolution.runtimeconfig.dev.json
+C:\Users\gmasi\Desktop\Exercise\testSolution\bin\Debug\netcoreapp3.1\testSolution.dll
+C:\Users\gmasi\Desktop\Exercise\testSolution\bin\Debug\netcoreapp3.1\testSolution.pdb
+C:\Users\gmasi\Desktop\Exercise\testSolution\obj\Debug\netcoreapp3.1\testSolution.csprojAssemblyReference.cache
+C:\Users\gmasi\Desktop\Exercise\testSolution\obj\Debug\netcoreapp3.1\testSolution.AssemblyInfoInputs.cache
+C:\Users\gmasi\Desktop\Exercise\testSolution\obj\Debug\netcoreapp3.1\testSolution.AssemblyInfo.cs
+C:\Users\gmasi\Desktop\Exercise\testSolution\obj\Debug\netcoreapp3.1\testSolution.csproj.CoreCompileInputs.cache
+C:\Users\gmasi\Desktop\Exercise\testSolution\obj\Debug\netcoreapp3.1\testSolution.dll
+C:\Users\gmasi\Desktop\Exercise\testSolution\obj\Debug\netcoreapp3.1\testSolution.pdb
+C:\Users\gmasi\Desktop\Exercise\testSolution\obj\Debug\netcoreapp3.1\testSolution.genruntimeconfig.cache
