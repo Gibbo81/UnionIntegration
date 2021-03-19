@@ -1,0 +1,46 @@
+
+
+
+
+
+
+PDF
+
+Colore di backgroud e coloredelle scritte decise dal centro
+
+Thank you for your reservation. We are looking forward to see you soon! Please print this reservation or keep this e-mail and bring it with you to the center. If you need to make any changes or have any special requests, please contact the center at {{System.Phone}}.
+
+We ask that you arrive 15 minutes before your reservation time. To help with social distancing and keeping everyone safe, please call the center to check-in upon your arrival at {{System.Phone}} so you can avoid waiting in line.
+
+
+Facoltativa decide il centro:
+To speed up the check-in at your arrival you can add some additional information at your reservation here.
+
+Solo per utenti guest:
+If you have not signed up for a Bowl QAMF account yet click here.
+
+Happy bowling! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia at velit et dictum. Sed varius in nibh id vehicula. Aenean vitae pretium elit, eget imperdiet arcu. Vivamus imperdiet neque rutrum elit pharetra bibendum. Proin molestie turpis sed justo rutrum lacinia. Aenean eget massa ut augue feugiat sollicitudin. Integer eros dui, dapibus vel tincidunt sed, ornare non leo. Nullam id eros vel ex malesuada interdum.
+
+Please don’t hesitate to call the center at {{Res.Phone}} with any questions or special requests you may have.
+This e-mail was sent from reservations@bowlqamf.com – please add to your safe senders list.
+© 2020 {{System.Name}}
+
+{{Res.Taxes}} {{Res.TaxesAmount}}  possono essere più di una diventano un foreach 
+	
+
+Body email
+
+Colore di backgroud e logo e colore delle scritte decise dal centro
+
+Thank you for your reservation
+
+unico testo:
+We remind you to come 15 minutes before and bring the attached pdf
+See you soon
+staff from {{System.Name}}
+
+footer inseribile dal centro:
+Please don’t hesitate to call the center at {{Res.Phone}} with any questions or special requests you may have.
+This e-mail was sent from reservations@bowlqamf.com – please add to your safe senders list.
+© 2021 {{System.Name}}
+
